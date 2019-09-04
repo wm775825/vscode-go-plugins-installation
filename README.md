@@ -1,4 +1,4 @@
-# manjaro: Go语言vscode插件安装
+# Go语言vscode插件安装
 
 由于GFW的存在，vscode自动安装插件可能会失败，以下为手动安装指令。
 
