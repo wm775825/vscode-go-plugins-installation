@@ -16,7 +16,7 @@
     go get -u -v github.com/stamblerre/gocode
     mv $GOPATH/bin/gocode $GOPATH/bin/gocode-gomod
     # 下面这个gocode要在上边gocode之后装
-    go get -u -v github.com/nsf/gocode
+    go get -u -v github.com/mdempsky/gocode
     go get -u -v github.com/rogpeppe/godef
     go get -u -v golang.org/x/lint/golint
     go get -u -v github.com/fatih/gomodifytags
