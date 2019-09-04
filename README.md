@@ -12,9 +12,9 @@
     go get -v github.com/go-delve/delve/cmd/dlv
     go get -u -v github.com/ramya-rao-a/go-outline
     go get -u -v github.com/acroca/go-symbols
-    # 这个是gocode-mod插件，安装后需要将$GOPATH/bin/gocode改名为gocode-mod
+    # 这个是gocode-mod插件，安装后需要将$GOPATH/bin/gocode改名为gocode-gomod
     go get -u -v github.com/stamblerre/gocode
-    mv $GOPATH/bin/gocode $GOPATH/bin/gocode-mod
+    mv $GOPATH/bin/gocode $GOPATH/bin/gocode-gomod
     # 下面这个gocode要在上边gocode之后装
     go get -u -v github.com/nsf/gocode
     go get -u -v github.com/rogpeppe/godef
